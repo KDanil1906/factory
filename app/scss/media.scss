@@ -1,0 +1,259 @@
+@media (max-width: 1419px) {
+    .product-benefits .product-benefits__slider-wrapper::before {
+        top: 2%;
+        left: 5vh;
+    }
+
+    .product-benefits .product-benefits__slider-wrapper::after {
+        bottom: 2%;
+        right: 5vh;
+    }
+
+    .custom_arrow {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 951px) {
+    .product-benefits .product-benefits__slider-itembox {
+        min-height: 85vh;
+    }
+
+    .production__pict-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 910px) {
+    .ultraviolet .ultraviolet__inner-item {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 847px) {}
+
+@media (max-width: 740px) {
+    .technologies__inner-desc .inner-desc__text {
+        font-size: 18px;
+    }
+
+    .technologies__inner-desc .inner-desc__image {
+        width: 20%;
+    }
+}
+
+@media (max-width: 709px) {
+    .welcome-text__title {
+        font-size: 40px;
+    }
+
+    .product-benefits .product-benefits__slider-itembox {
+        justify-content: space-around;
+    }
+
+    .technologies__inner-blocks {
+        flex-wrap: wrap;
+    }
+
+    .technologies__inner-block {
+        width: 50%;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer__inner {
+        justify-content: center;
+    }
+
+    .footer__item {
+        justify-content: start;
+    }
+}
+
+@media (max-width: 597px) {
+    .production__pict-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 532px) {
+    .product-benefits .product-benefits__slider-itembox {
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width: 526px) {
+    .any-questions .any-questions__wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .any-questions .any-questions__text {
+        text-align: center;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .any-questions .any-questions__btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .any-questions {
+        height: 350px;
+    }
+
+
+    .header {
+        min-height: 65vh;
+    }
+
+    .technologies__inner-desc .inner-desc__image {
+        width: 35%;
+        margin-bottom: 20px;
+    }
+
+    .technologies__inner-desc {
+        flex-wrap: wrap;
+    }
+
+    .technologies__inner-desc .inner-desc__text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 519px) {
+
+    .product-benefits .product-benefits__slider-wrapper::before,
+    .product-benefits .product-benefits__slider-wrapper::after {
+        display: none;
+    }
+
+    .product-benefits .product-benefits__slider-itembox {
+        width: 90%;
+    }
+
+    .product-benefits .product-benefits__slider-itembox span {
+        font-size: 19px;
+    }
+
+    .ultraviolet .ultraviolet__inner-item {
+        width: 100%;
+    }
+
+    .ultraviolet .ultraviolet__title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 420px) {
+    .product-benefits .product-benefits__slider-itembox {
+        padding: 5px 5px;
+        font-size: 19px;
+        width: 100%;
+    }
+
+    .production__title {
+        font-size: 35px;
+    }
+}
+
+
+@media (max-width: 374px) {
+
+
+    .any-questions .any-questions__text {
+        font-size: 26px;
+    }
+
+    .technologies__inner-block {
+        width: 100%;
+    }
+}
+
+// ;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+#Header>.is-sticky>.container>.column.one>.top_bar_left.clearfix>.menu_wrapper {
+    background-color: #fff;
+    transform: translateX(200%);
+    transition: all .3s;
+}
+
+#Header>.is-sticky>.container>.column.one>.top_bar_left.clearfix>.menu_wrapper.active {
+    background-color: tomato;
+    transform: translateX(0);
+}
+
+.burger_stichy {
+    width: 41px;
+    display: none;
+    margin-top: 9px;
+    float: right;
+}
+
+.burger_stichy.active {
+    display: inline-block;
+}
+
+@media (max-width: 431px) {
+    .logo {
+        width: 255px !important;
+    }
+}
+
+.burger_stichy {
+    width: 41px;
+    display: none;
+    margin-top: 9px;
+    float: right;
+}
+
+
+// ------------------------------------------
+#Header>.is-sticky>.container>.column.one>.top_bar_left.clearfix>.menu_wrapper {
+    background-color: #fff;
+    transform: translateX(200%);
+    transition: all .3s;
+    margin-top: -1px;
+    border-bottom: 5px solid #ebef26;
+}
+
+
+
+#Header>.is-sticky>.container>.column.one>.top_bar_left.clearfix>.menu_wrapper.active {
+    transform: translateX(0);
+}
+
+#Top_bar .burger_stichy {
+    width: 41px;
+    display: none;
+    margin-top: 9px;
+    float: right;
+}
+
+
+#Top_bar.is-sticky .burger_stichy {
+    display: inline-block;
+}
+
+@media (max-width: 1239px) {
+#Top_bar.is-sticky .burger_stichy {
+    display: none;
+}
+
+#Header>.is-sticky>.container>.column.one>.top_bar_left.clearfix>.menu_wrapper {
+    transform: translateX(0);
+}
+}
+
+@media (max-width: 431px) {
+    .logo {
+        width: 255px !important;
+    }
+}
+
